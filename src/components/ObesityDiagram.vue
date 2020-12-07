@@ -294,7 +294,7 @@
           class="cls-13"
           d="M897.35,672.88H865a4,4,0,0,1-4-4V652a4,4,0,0,1,4-4h32.32a4,4,0,0,1,4,4v16.84A4,4,0,0,1,897.35,672.88Z"
         />
-        <a>
+        <a v-on:click="callDescription(87)">
           <g class="cls-3">
             <text class="cls-6" transform="translate(864.39 655.29)">
               Confiança nos
@@ -337,7 +337,7 @@
           class="cls-13"
           d="M876.47,793.35H844.15a4,4,0,0,1-4-4V772.51a4,4,0,0,1,4-4h32.32a4,4,0,0,1,4,4v16.84A4,4,0,0,1,876.47,793.35Z"
         />
-        <a>
+        <a v-on:click="callDescription(55)">
           <g class="cls-3">
             <text class="cls-6" transform="translate(850.64 779.18)">
               Nível de
@@ -404,7 +404,7 @@
           class="cls-15"
           d="M1042.38,563.47h-32.32a4,4,0,0,1-4-4V540.74a4,4,0,0,1,4-4h32.32a4,4,0,0,1,4,4v18.73A4,4,0,0,1,1042.38,563.47Z"
         />
-        <a>
+        <a v-on:click="callDescription(56)">
           <g class="cls-3">
             <text class="cls-18" transform="translate(1016.85 545.24)">
               Nível de
@@ -431,7 +431,7 @@
           class="cls-19"
           d="M574.93,579.69H543.49a4,4,0,0,1-4-4V558.44a4,4,0,0,1,4-4h31.44a4,4,0,0,1,4,4v17.25A4,4,0,0,1,574.93,579.69Z"
         />
-        <a>
+        <a v-on:click="callDescription(52)">
           <g class="cls-3">
             <text
               class="cls-20"
@@ -506,7 +506,7 @@
           class="cls-24"
           d="M760.59,343.12H727a4,4,0,0,1-4-4v-17.5a4,4,0,0,1,4-4h33.64a4,4,0,0,1,4,4v17.5A4,4,0,0,1,760.59,343.12Z"
         />
-        <a>
+        <a v-on:click="callDescription(82)">
           <g class="cls-3">
             <text class="cls-22" transform="translate(730.34 328.92)">
               Ambivalência
@@ -2947,7 +2947,7 @@
           class="cls-46"
           d="M845.81,539a53.43,53.43,0,0,0,6.4,6.27,61.62,61.62,0,0,0,11,7.11,88.09,88.09,0,0,0,11,5,91.78,91.78,0,0,0,12.44,3.56A101,101,0,0,0,910,563.06"
         />
-        <a>
+        <a v-on:click="callDescription(51)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(1238.36 594.74)">
               Facilidade de
@@ -3039,7 +3039,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(67)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(1106.26 626.75)">
               Oportunidade de
@@ -3126,7 +3126,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(57)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(1017.11 449.51)">
               Nível de
@@ -3152,7 +3152,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(92)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(1037.15 821.2)">
               Efeitos
@@ -3188,7 +3188,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(77)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(914.77 832.67)">
               Predisposição
@@ -3251,7 +3251,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(106)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(886.98 177.88)">
               Uso de
@@ -3261,7 +3261,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(91)">
           <text class="cls-12" transform="translate(730.56 111.28)">
             Auto estima
           </text>
@@ -3299,7 +3299,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(84)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(597.9 894.18)">
               Qualidade e
@@ -3362,7 +3362,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(69)">
           <text class="cls-12" transform="translate(530.65 252.36)">
             Controle
             <tspan x="0.14" y="6.25">dos pais</tspan>
@@ -3377,7 +3377,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(96)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(442.89 254.17)">
               Rejeição social
@@ -3387,7 +3387,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(93)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(444.37 292.66)">
               Interrupção do
@@ -3413,7 +3413,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(98)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(338.84 152.32)">
               <tspan class="cls-49">A</tspan>
@@ -3468,6 +3468,8 @@
           <text class="cls-12" transform="translate(209.02 161.56)">
             Aculturação
           </text>
+        </a>
+        <a v-on:click="callDescription(71)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(282.16 245.36)">
               Pressão dos
@@ -3495,7 +3497,7 @@
             Educação
           </text>
         </a>
-        <a>
+        <a v-on:click="callDescription(54)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(131.09 269.76)">
               Emprego
@@ -3712,7 +3714,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(61)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(198.42 553.14)">
               Preço de
@@ -3773,7 +3775,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(68)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(440.15 569.78)">
               Palatabilidade
@@ -3802,7 +3804,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(76)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(442.62 643.29)">
               <tspan class="cls-47">T</tspan>
@@ -3813,7 +3815,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(65)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(333.58 643.29)">
               Qualidade
@@ -3829,7 +3831,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(83)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(242.37 676.95)">
               Poder de
