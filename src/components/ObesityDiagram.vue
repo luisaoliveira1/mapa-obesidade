@@ -122,7 +122,7 @@
           class="cls-5"
           d="M762.66,635.26H727.77a4.16,4.16,0,0,1-4.31-4V614.42a4.16,4.16,0,0,1,4.31-4h34.89a4.17,4.17,0,0,1,4.32,4v16.84A4.17,4.17,0,0,1,762.66,635.26Z"
         />
-        <a>
+        <a v-on:click="callDescription(53)">
           <g class="cls-3">
             <text class="cls-6" transform="translate(723.88 620.93)">
               Nível de energia
@@ -164,7 +164,7 @@
           class="cls-5"
           d="M666,760.69H633.7a4,4,0,0,1-4-4V739.85a4,4,0,0,1,4-4H666a4,4,0,0,1,4,4v16.84A4,4,0,0,1,666,760.69Z"
         />
-        <a>
+        <a v-on:click="callDescription(58)">
           <g class="cls-3">
             <text class="cls-6" transform="translate(639.4 742.94)">
               Nível de
@@ -274,7 +274,7 @@
           class="cls-5"
           d="M761,832.67H725.81a4,4,0,0,1-4-4c0-.59,0-1,0-1.22.37-2.4.24-5.58,0-11.54a95.94,95.94,0,0,1,0-11.09A4.66,4.66,0,0,1,723,802a4,4,0,0,1,2.83-1.17H761a4,4,0,0,1,4,4v23.86A4,4,0,0,1,761,832.67Z"
         />
-        <a>
+        <a v-on:click="callDescription(59)">
           <g class="cls-3">
             <text class="cls-6" transform="translate(726.9 808.14)">
               Predisposição
@@ -351,7 +351,7 @@
           class="cls-15"
           d="M947.83,640H915.51a4,4,0,0,1-4-4V619.12a4,4,0,0,1,4-4h32.32a4,4,0,0,1,4,4V636A4,4,0,0,1,947.83,640Z"
         />
-        <a>
+        <a v-on:click="callDescription(64)">
           <text class="cls-6" transform="translate(915.58 629.21)">
             Aptidão física
           </text>
@@ -473,7 +473,7 @@
           class="cls-21"
           d="M700.31,395.06h-25a4,4,0,0,1-4-4V378.71a4,4,0,0,1,4-4h25a4,4,0,0,1,4,4v12.35A4,4,0,0,1,700.31,395.06Z"
         />
-        <a>
+        <a v-on:click="callDescription(60)">
           <g class="cls-3">
             <text class="cls-22" transform="translate(677.99 380.59)">
               Desejo de
@@ -3016,7 +3016,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(62)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(1209.85 376.18)">
               Custo do
@@ -3026,7 +3026,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(63)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(1139.71 371.82)">
               Acesso as
@@ -3052,7 +3052,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(80)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(1112.52 664.98)">
               <tspan class="cls-47">T</tspan>
@@ -3076,7 +3076,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(66)">
           <g class="cls-3">
             <text
               class="cls-48"
@@ -3118,7 +3118,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(70)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(1002.94 355.54)">
               Grau de
@@ -3198,7 +3198,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(72)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(726.47 859.36)">
               Adequação da
@@ -3211,7 +3211,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(73)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(727.94 902.18)">
               Adequação do
@@ -3266,7 +3266,7 @@
             Auto estima
           </text>
         </a>
-        <a>
+        <a v-on:click="callDescription(74)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(723.8 148.26)">
               Interação social
@@ -3276,7 +3276,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(75)">
           <text class="cls-12" transform="translate(727.74 211.78)">
             Individualismo
           </text>
@@ -3286,7 +3286,7 @@
             Estresse
           </text>
         </a>
-        <a>
+        <a v-on:click="callDescription(78)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(649.76 899.88)">
               Adequação do
@@ -3318,7 +3318,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(79)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(657.54 168.86)">
               Grau de
@@ -3331,7 +3331,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(81)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(528.04 120.28)">
               Exposição à
@@ -3397,7 +3397,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(85)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(324.66 97.21)">
               Disponibilidade
@@ -3464,7 +3464,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(88)">
           <text class="cls-12" transform="translate(209.02 161.56)">
             Aculturação
           </text>
@@ -3479,7 +3479,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(89)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(218.98 243.24)">
               Conceituação da
@@ -3492,7 +3492,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(90)">
           <text class="cls-12" transform="translate(161.13 115.81)">
             Educação
           </text>
@@ -3517,7 +3517,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(94)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(220.84 330.56)">
               Esforço para
@@ -3585,12 +3585,12 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(95)">
           <text class="cls-12" transform="translate(437.59 444.47)">
             Desqualificação
           </text>
         </a>
-        <a>
+        <a v-on:click="callDescription(97)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(389.63 462.43)">
               Demanda por
@@ -3609,7 +3609,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(99)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(220.95 412.55)">
               Esforço para
@@ -3625,7 +3625,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(100)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(128.59 461.86)">
               Nível de
@@ -3635,7 +3635,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(101)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(197.12 461.86)">
               Desejo de
@@ -3648,7 +3648,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(102)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(247.05 459.86)">
               Desejo de
@@ -3661,7 +3661,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(103)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(169.8 511.29)">
               Custos dos
@@ -3730,7 +3730,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(104)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(445.79 511.29)">
               <tspan class="cls-50">V</tspan>
@@ -3741,7 +3741,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(105)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(442.19 544.18)">
               Consumo de
@@ -3751,7 +3751,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(107)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(308.5 567.93)">
               Conteúdo de
@@ -3788,7 +3788,7 @@
             </text>
           </g>
         </a>
-        <a>
+        <a v-on:click="callDescription(108)">
           <g class="cls-3">
             <text class="cls-12" transform="translate(443.26 603.52)">
               Densidade

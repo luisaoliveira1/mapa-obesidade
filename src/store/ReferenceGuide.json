@@ -28,7 +28,10 @@
             "id": "4",
             "variable": "Grau de atividade inata na infância",
             "group": "Atividade física individual",
-            "description": "Grau de atividade física inata da infância"
+            "description": "Grau de atividade física inata da infância",
+            "reference": [
+                "https://www.ajpmonline.org/article/S0749-3797(11)00312-6/fulltext"
+            ]
         },
         {
             "id": "5",
@@ -52,7 +55,12 @@
             "id": "8",
             "variable": "Busca por satisfação / compensação",
             "group": "Psicologia individual",
-            "description": "Força da busca por liberação psicológica após estresse ou esforço"
+            "description": "Força da busca por liberação psicológica após estresse ou esforço",
+            "reference": [
+                "https://onlinelibrary.wiley.com/doi/abs/10.1111/obr.12216",
+                "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-789X.2009.00645.x",
+                "https://www.nature.com/articles/mp201354; https://akjournals.com/view/journals/2006/5/1/article-p11.xml"
+            ]
         },
         {
             "id": "9",
@@ -64,7 +72,11 @@
             "id": "10",
             "variable": "Predomínio do transporte motorizado",
             "group": "Ambiente de atividade física",
-            "description": "Grau para o qual o transporte motorizado predomina outros meios de transporte"
+            "description": "Grau para o qual o transporte motorizado predomina outros meios de transporte",
+            "reference": [
+                "https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-12-18",
+                "https://www.sciencedirect.com/science/article/pii/S0091743514002023?via%3Dihub"
+            ]
         },
         {
             "id": "11",
@@ -87,7 +99,11 @@
             "id": "14",
             "variable": "Abundância de alimentos",
             "group": "Consumo de alimento",
-            "description": "Volume de comida que está a qualquer momento no tempo disponível "
+            "description": "Volume de comida que está a qualquer momento no tempo disponível.",
+            "reference": [
+                "https://link.springer.com/article/10.1007/s00394-018-1819-6",
+                "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0192212"
+            ]
         },
         {
             "id": "15",
@@ -99,7 +115,10 @@
             "id": "16",
             "variable": "Importância do padrão ideal de imagem corporal",
             "group": "Psicologia social",
-            "description": "Grau para o qual existe uma imagem dominante de um tamanho corporal ideal em uma sociedade"
+            "description": "Grau para o qual existe uma imagem dominante de um tamanho corporal ideal em uma sociedade",
+            "reference": [
+                "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0224612"
+            ]
         },
         {
             "id": "17",
@@ -245,13 +264,21 @@
         {
             "id": "41",
             "variable": "Aceitabilidade social da gordura gorporal aumentada",
-            "group": "Psicologia social"
+            "group": "Psicologia social",
+            "reference": [
+                "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0224612",
+                "https://linkinghub.elsevier.com/retrieve/pii/S016517810900170X"
+            ]
         },
         {
             "id": "42",
             "variable": "Depreciação social do trabalho",
             "group": "Ambiente de atividade física",
-            "description": "Grau em que o trabalho manual é desvalorizado/mal valorizado em um determinado grupo sócio-cultural"
+            "description": "Grau em que o trabalho manual é desvalorizado/mal valorizado em um determinado grupo sócio-cultural",
+            "reference": [
+                "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-789X.2011.00965.x",
+                "https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-12-18"
+            ]
         },
         {
             "id": "43",
@@ -281,7 +308,10 @@
             "id": "47",
             "variable": "Estresse",
             "group": "Psicologia individual",
-            "description": "Nível de estresse percebido pelo indivíduo"
+            "description": "Nível de estresse percebido pelo indivíduo",
+            "reference": [
+                "https://openpsychologyjournal.com/VOLUME/8/PAGE/113/"
+            ]
         },
         {
             "id": "48",
@@ -304,7 +334,10 @@
         {
             "id": "51",
             "variable": "Facilidade de caminhar próximo ao local em que mora",
-            "group": "Ambiente de atividade física"
+            "group": "Ambiente de atividade física",
+            "reference": [
+                "https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-14-233"
+            ]
         },
         {
             "id": "52",
@@ -314,9 +347,9 @@
         },
         {
             "id": "53",
-            "variable": "Nível de massa livre de gordura",
+            "variable": "Nível de energia disponível",
             "group": "Fisiologia",
-            "description": "Relação de massa livre de gordura (músculo) em comparação com o tecido adiposo"
+            "description": "Nível de energia disponível para um indivíduo."
         },
         {
             "id": "54",
@@ -327,7 +360,10 @@
             "id": "55",
             "variable": "Nível de infecções",
             "group": "Fisiologia",
-            "description": "Grau de ocorrência geral de todo tipo de doenças na sociedade"
+            "description": "Grau de ocorrência geral de todo tipo de doenças na sociedade",
+            "reference": [
+                "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0221076"
+            ]
         },
         {
             "id": "56",
@@ -343,54 +379,78 @@
         },
         {
             "id": "58",
-            "variable": "Nível de saciedade",
+            "variable": "Nível de metabolismo dos adipócitos",
             "group": "Fisiologia",
-            "description": "Nível em que a ingestão de alimentos reduz a necessidade de consumo de mais alimentos"
+            "description": "Grau para o qual a gordura é rapidamente absorvida e armazenada no tecido adiposo (células de armazenamento de gordura).",
+            "reference": [
+                "https://www.hindawi.com/journals/dm/2019/5096860/"
+            ]
         },
         {
             "id": "59",
-            "variable": "Nível de termogênese",
+            "variable": "Predisposição genética e / ou epigenética à obesidade",
             "group": "Fisiologia",
-            "description": "Grau de energia necessária para manter a temperatura corporal"
+            "description": "Grau em que uma pessoa está predisposta por sua genética a desenvolver obesidade; grau de herança indireta que contribui para a suscetibilidade à obesidade.",
+            "reference": [
+                "https://www.nature.com/articles/ijo201434",
+                "http://www.besjournal.com/en/article/doi/10.3967/0895-3988.2011.02.015",
+                "https://academic.oup.com/aje/article/180/11/1051/147615",
+                "https://academic.oup.com/carcin/article/32/5/748/2896693",
+                "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000508",
+                "https://www.nature.com/articles/ijo201111"
+            ]
         },
         {
             "id": "60",
-            "variable": "Nível de atividade de transporte",
-            "group": "Atividade física individual",
-            "description": "Nível de atividade física associada ao transporte"
+            "variable": "Desejo de resolver tensões",
+            "group": "Psicologia individual",
+            "description": "Desejo de resolver conflitos psicológicos entre o que deseja e o que necessita para se manter saudáveis."
         },
         {
             "id": "61",
             "variable": "Preço de mercado das ofertas de alimentos",
-            "group": "Produção de alimento"
+            "group": "Produção de alimento",
+            "reference": [
+                "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0224612; https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0193378"
+            ]
         },
         {
             "id": "62",
-            "variable": "Disponibilidade dos meios de comunicação",
-            "group": "Psicologia social",
-            "description": "Disponibilidade dos meios de comunicação em vários formatos"
+            "variable": "Custo do exercício físico",
+            "group": "Ambiente de atividade física",
+            "description": "Custo financeiro de recreação física."
         },
         {
             "id": "63",
-            "variable": "Consumo dos meios de comunicação",
-            "group": "Psicologia social",
-            "description": "Grau para o qual as pessoas fazem uso do que é ofertado pelos meios de comunicação"
+            "variable": "Acesso a oportunidades de exercício físico",
+            "group": "Ambiente de atividade física",
+            "description": "Acessibilidade física (segurança à distância) de oportunidades de exercício físico.",
+            "reference": [
+                "https://www.cambridge.org/core/journals/public-health-nutrition/article/an-obesogenic-island-in-the-mediterranean-mapping-potential-drivers-of-obesity-in-malta/DEF4B88FFF77E4D7D86B0B30361E8508#",
+                "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0224612"
+            ]
         },
         {
             "id": "64",
-            "variable": "Atividade não volitiva ",
+            "variable": "Aptidão física",
             "group": "Atividade física individual",
-            "description": "Medida de ocorrência de atividades não volitivas (caimbras e espasmos, etc.)"
+            "description": "Nível de aptidão física para realizar tarefas diárias."
         },
         {
             "id": "65",
             "variable": "Qualidade nutricional de alimentos e bebidas",
-            "group": "Consumo de alimento"
+            "group": "Consumo de alimento",
+            "reference": [
+                "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216547",
+                "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157461",
+                "http://koreascience.or.kr/article/JAKO201813639172455.page"
+            ]
         },
         {
             "id": "66",
-            "variable": "Oportunidade de atividade em equipe",
-            "group": "Ambiente de atividade física"
+            "variable": "Padrões de atividade aprendidos na primeira infância",
+            "group": "Atividade física individual",
+            "description": "Grau de atividade experimentado pelo feto, recém-nascido e criança no início da vida através da atividade física dos pais."
         },
         {
             "id": "67",
@@ -411,9 +471,9 @@
         },
         {
             "id": "70",
-            "variable": "Modelagem parental",
+            "variable": "Grau de educação física",
             "group": "Atividade física individual",
-            "description": "Grau para o qual os pais agem como modelo em padrões comportamentais relacionados à atividade física"
+            "description": "Grau para o qual as pessoas aprenderam a usar seu corpo (para trabalho, lazer e transporte)."
         },
         {
             "id": "71",
@@ -423,26 +483,42 @@
         },
         {
             "id": "72",
-            "variable": "Percepção de perigo no meio",
-            "group": "Psicologia social"
+            "variable": "Adequação da composição corporal materna",
+            "group": "Fisiologia",
+            "description": "Grau em que o corpo materno tem a condições fisiológicas ideal na concepção, gravidez e parto.",
+            "reference": [
+                "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-789X.2011.00965.x; https://www.nature.com/articles/0801139.pdf?origin=ppub"
+            ]
         },
         {
             "id": "73",
-            "variable": "Inconsistência percebida de mensagens baseadas na ciência",
-            "group": "Psicologia individual",
-            "description": "Grau em que há incompatibilidade entre avaliações científicas sobre questões relacionadas com alimentos que são (ou percebidos como) semelhantes"
+            "variable": "Adequação do crescimento embrionário e fetal",
+            "group": "Fisiologia",
+            "description": "O grau em que o ambiente fisiológico fornece para o embrião ambiente ideal para o crescimento.",
+            "reference": [
+                "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-789X.2011.00965.x",
+                "https://www.nature.com/articles/0801139.pdf?origin=ppub; https://onlinelibrary.wiley.com/doi/abs/10.1111/jocn.12951",
+                "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0087896"
+            ]
         },
         {
             "id": "74",
-            "variable": "Percepção de falta de tempo",
-            "group": "Psicologia social",
-            "description": "Por todos os cidadãos, particularmente aqueles envolvidos em atividades econômicas"
+            "variable": "Interação social cara a cara",
+            "group": "Psicologia individual",
+            "description": "Intensidade de interação presencial entre indivíduos."
         },
         {
             "id": "75",
-            "variable": "Atividade física",
+            "variable": "Individualismo",
             "group": "Atividade física individual",
-            "description": "Intensidade da atividade física em que as pessoas estão envolvidas"
+            "description": "Fraqueza da teia social.",
+            "reference": [
+                "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-789X.2009.00645.x",
+                "https://www.sciencedirect.com/science/article/abs/pii/S1876201815300976?via%3Dihub",
+                "https://journals.sagepub.com/doi/10.1177/1359105308095977",
+                "https://www.sciencedirect.com/science/article/abs/pii/S016517810900170X?via%3Dihub",
+                "https://onlinelibrary.wiley.com/doi/full/10.1111/dmcn.12168"
+            ]
         },
         {
             "id": "76",
@@ -456,27 +532,34 @@
         },
         {
             "id": "78",
-            "variable": "Pressão por crescimento econômico e lucratividade",
-            "group": "Produção de alimento",
-            "description": "Grau para o qual os atores econômicos deixam suas decisões serem baseadas no desempenho financeiro"
+            "variable": "Adequação do crescimento infantil",
+            "group": "Fisiologia",
+            "description": "Grau em que a velocidade de crescimento e o estado fisiológico da criança são equilibrados entre si e, assim, prevenir o início precoce da formação de tecido adiposo.",
+            "reference": [
+                "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-789X.2011.00965.x",
+                "https://www.nature.com/articles/0801139.pdf?origin=ppub",
+                "https://onlinelibrary.wiley.com/doi/abs/10.1111/obr.12334",
+                "https://search.bvsalud.org/portal/resource/en/lil-612509",
+                "https://www.nature.com/articles/ijo2012177",
+                "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-789X.2008.00475.x"
+            ]
         },
         {
             "id": "79",
-            "variable": "Pressão no desempenho do trabalho",
-            "group": "Produção de alimento",
-            "description": "Pressão sobre os funcionários por uma economia industrial"
+            "variable": "Grau de educação nutricional",
+            "group": "Psicologia individual",
+            "description": "Grau em que as pessoas são capazes de avaliar a qualidade nutricional dos alimentos."
         },
         {
             "id": "80",
-            "variable": "Pressão para atender o paladar do consumidor",
-            "group": "Produção de alimento",
-            "description": "Pressão interna do setor para calibrar as ofertas de alimentos para o que os consumidores estão acostumados/gostam"
+            "variable": "Temperatura ambiente",
+            "group": "Ambiente de atividade física",
+            "description": "Temperatura ambiental média."
         },
         {
             "id": "81",
-            "variable": "Pressão para melhorar o acesso a ofertas de alimentos",
-            "group": "Produção de alimento",
-            "description": "Pressão interna da indústria alimentícia  para levar os seus produtos o mais próximo possível dos consumidores"
+            "variable": "Exposição à publicidade de alimentos",
+            "group": "Psicologia social"
         },
         {
             "id": "82",
@@ -487,18 +570,28 @@
         {
             "id": "83",
             "variable": "Poder de compra",
-            "group": "Produção de alimento"
+            "group": "Produção de alimento",
+            "reference": [
+                "https://www.nature.com/articles/0801139.pdf?origin=ppub",
+                "https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-12-18",
+                "https://academic.oup.com/epirev/article/31/1/21/468188",
+                "https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-10-525",
+                "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0193378"
+            ]
         },
         {
             "id": "84",
             "variable": "Qualidade e quantidade de aleitamento materno",
-            "group": "Fisiologia"
+            "group": "Fisiologia",
+            "reference": [
+                "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-789X.2011.00965.x"
+            ]
         },
         {
             "id": "85",
-            "variable": "Tempo de ingestão de alimentos",
-            "group": "Produção de alimento",
-            "description": "Tempo dedicado a consumir uma refeição"
+            "variable": "Disponibilidade de entretenimento passivo",
+            "group": "Psicologia social",
+            "description": "Disponibilidade recreativas que envolvam apenas atividades físicas limitadas (TV, jogos de computador)."
         },
         {
             "id": "86",
@@ -513,21 +606,29 @@
         },
         {
             "id": "88",
-            "variable": "Confiança nas intervenções cirúrgicas",
-            "group": "Fisiologia",
-            "description": "Uso cirurgias como solução para os efeitos da obesidade"
+            "variable": "Aculturação",
+            "group": "Psicologia social",
+            "description": "Grau em que uma cultura dominante é assimilada.",
+            "reference": [
+                "https://www.tandfonline.com/doi/abs/10.1080/08870446.2017.1398327?journalCode=gpsh20",
+                "https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-13-458"
+            ]
         },
         {
             "id": "89",
-            "variable": "Taxa metabólica em repouso",
-            "group": "Fisiologia",
-            "description": "Quantidade de energia utilizada pelo metabolismo em estado de repouso (sem atividade física, nem intestinal)"
+            "variable": "Conceituação da obesidade como uma doença",
+            "group": "Psicologia social",
+            "description": "Grau para o qual as pessoas consideram a obesidade como fora do padrão saudável."
         },
         {
             "id": "90",
-            "variable": "Segurança do transporte não motorizado",
-            "group": "Ambiente de atividade física",
-            "description": "Nível do risco de danos ao transporte não motorizado"
+            "variable": "Educação",
+            "group": "Psicologia social",
+            "reference": [
+                "https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-12-18",
+                "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-789X.2009.00645.x",
+                "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-789X.2009.00656.x"
+            ]
         },
         {
             "id": "91",
@@ -548,14 +649,15 @@
         },
         {
             "id": "94",
-            "variable": "Aceitabilidade social da gordura gorporal aumentada",
-            "group": "Psicologia social"
+            "variable": "Esforço para aumentar a eficiência do consumo",
+            "group": "Produção de alimentos",
+            "description": "Pelos consumidores."
         },
         {
             "id": "95",
-            "variable": "Depreciação social do trabalho",
-            "group": "Ambiente de atividade física",
-            "description": "Grau em que o trabalho manual é desvalorizado/mal valorizado em um determinado grupo sócio-cultural"
+            "variable": "Desqualificação",
+            "group": "Consumo alimentar",
+            "description": "O grau em que os indivíduos não são mais capazes de se envolver independentemente em tarefas rotineiras da vida diária (ex: cozinhar)."
         },
         {
             "id": "96",
@@ -564,9 +666,9 @@
         },
         {
             "id": "97",
-            "variable": "Pressão social para consumir",
-            "group": "Produção de alimento",
-            "description": "Pressão endêmica (através de vários meios e sujeitos) para consumir"
+            "variable": "Demanda por conveniência",
+            "group": "Consumo alimentar",
+            "description": "Demanda do consumidor por ofertas de alimentos convenientes (economia de tempo / esforço)."
         },
         {
             "id": "98",
@@ -576,45 +678,46 @@
         },
         {
             "id": "99",
-            "variable": "Avaliação sociocultural da atividade física",
-            "group": "Ambiente de atividade física",
-            "description": "Grau para o qual a atividade física é positivamente valorizada em um dado grupo sociocultural"
+            "variable": "Esforço para aumentar a eficiência da produção",
+            "group": "Produção de alimentos",
+            "description": "Esforço dos atores econômicos (indústria)."
         },
         {
             "id": "100",
-            "variable": "Padronização de ofertas de alimentos",
-            "group": "Produção de alimento",
-            "description": "Grau em que os alimentos processados são similares nos processos de produção, ingredientes e  mercado"
+            "variable": "Nível de emprego",
+            "group": "Produção de alimentos"
         },
         {
             "id": "101",
-            "variable": "Força da interdependência para acumular energia",
-            "group": "Motor",
-            "description": "Grau para o qual padrões comportamentais para gastar e adquirir energia são psicologicamente e biologicamente vinculados"
+            "variable": "Desejo de minimizar custos",
+            "group": "Produção de alimentos",
+            "description": "Movimentação interna para minimizar o custo de produção."
         },
         {
             "id": "102",
-            "variable": "Estresse",
-            "group": "Psicologia individual",
-            "description": "Nível de estresse percebido pelo indivíduo"
+            "variable": "Desejo de maximizar o volume",
+            "group": "Produção de alimentos",
+            "description": "Movimentação interna do setor para maximizar os volumes vendidos no mercado.",
+            "reference": [
+                "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0193378"
+            ]
         },
         {
             "id": "103",
-            "variable": "Tendência para beliscar",
-            "group": "Consumo de alimento",
-            "description": "Tendência para comer fora das refeições fixas"
+            "variable": "Custo dos ingredientes",
+            "group": "Produção de alimentos",
+            "description": "Custo dos ingredientes utilizados em alimentos processados."
         },
         {
             "id": "104",
-            "variable": "Tendência a gastar menos energia",
-            "group": "Motor",
-            "description": "Tendência de um indivíduo a ter menor gasto de energia corporal"
+            "variable": "Variedade alimentar",
+            "group": "Consumo alimentar",
+            "description": "O número de diferentes produtos alimentícios (naturais e processados) disponíveis a qualquer momento no tempo."
         },
         {
             "id": "105",
-            "variable": "Tempo assistindo televisão",
-            "group": "Psicologia social",
-            "description": "Tempo gasto assistindo TV"
+            "variable": "Consumo de álcool",
+            "group": "Consumo alimentar"
         },
         {
             "id": "106",
@@ -623,14 +726,19 @@
         },
         {
             "id": "107",
-            "variable": "Facilidade de caminhar próximo ao local em que mora",
-            "group": "Ambiente de atividade física"
+            "variable": "Conteúdo de fibra de alimentos e bebidas",
+            "group": "Consumo alimentar",
+            "reference": [
+                "http://pepsic.bvsalud.org/scielo.php?script=sci_arttext&pid=S0104-12822016000200016",
+                "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140846",
+                "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-789X.2010.00786.x"
+            ]
         },
         {
             "id": "108",
-            "variable": "Força de hábitos alimentares",
-            "group": "Consumo de alimento",
-            "description": "O grau em que os padrões comportamentais relacionados à ingestão de alimentos são ditados pela rotina e pelo hábito"
+            "variable": "Densidade energética das ofertas de alimentos",
+            "group": "Produção de alimentos",
+            "description": "Número de calorias por unidade de peso alimentar."
         }
     ]
 }
