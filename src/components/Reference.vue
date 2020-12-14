@@ -1,7 +1,11 @@
 <template>
-  <div class="reference-box">
-      <h1>{{this.descriptionReference.variable}}</h1>
-      <p>{{this.descriptionReference.description}}</p>
+  <div class="reference-box" v-if="this.descriptionReference">
+    <a click="show = !show"><font-awesome-icon id="collapse" icon="times" /></a>
+    <h1>{{this.descriptionReference.variable}}</h1>
+    <p>{{this.descriptionReference.description}} <span v-if="this.descriptionReference.reference">(<a :key="index" v-for="(reference, index) of descriptionReference.reference" target="_blank" :href="descriptionReference.reference[index]">{{referenceWithComma(index)}}</a>)</span></p>
+  </div>
+  <div class="reference-box" v-else>
+      <h1>Para visualizar a descrição da variável, clique em um dos itens dentro do mapa</h1>
   </div>
 </template>
 <script>
@@ -12,22 +16,15 @@ export default {
       return {
           isActive: true
       }
+  },
+  methods: {
+    referenceWithComma(index){
+     if(index!==this.descriptionReference.reference.length-1){
+       return `${index + 1}, `;
+     }else{
+       return index + 1;
+     }
+   }
   }
 }
 </script>
-<style lang="scss">
-.reference-box {
-  position: absolute;
-  width: 350px;
-  height: 200px;
-  background-color: white;
-  border-radius: 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  padding: 15px 15px 15px 15px;
-  bottom: 30px;
-  p {
-    text-align: justify;
-    text-justify: inter-word;
-  }
-}
-</style>

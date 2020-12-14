@@ -5,9 +5,6 @@
       class="pan-zoom"
     >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1361.8 1045.65">
-        <!-- <defs>
-
-    </defs> -->
         <g id="Camada_2" data-name="Camada 2">
           <g id="Camada_1-2" data-name="Camada 1">
             <path
@@ -4199,15 +4196,12 @@ export default {
     },
     onInit(){
       if(screen.width < 1366) return { minZoom: 0.5, maxZoom: 4, zoomSpeed: 0.065, bounds: false, initialX: 0, initialY: 0, initialZoom: 0.65 }
-      return { minZoom: 0.5, maxZoom: 4, zoomSpeed: 0.065, bounds: false, initialX: 900, initialY: 0, initialZoom: 0.65 }
+      return { minZoom: 0.5, maxZoom: 4, zoomSpeed: 0.065, bounds: false, initialX: 1200, initialY: 300, initialZoom: 0.55 }
     }
   },
 };
 </script>
 <style lang="scss" scoped>
-div{
-  position: relative
-}
 .cls-1,
 .cls-2,
 .cls-32,
@@ -4495,7 +4489,13 @@ div{
 .cls-50 {
   letter-spacing: -0.07em;
 }
-*:focus {
-  outline: none;
+/deep/div{
+  max-height: 100vh;
+  *:focus {
+    outline: none;
+  }
+}
+.pan-zoom{
+  overflow: hidden;
 }
 </style>
