@@ -1,7 +1,7 @@
 <template>
   <div id="container">
     <div class="title">
-         <h1>Diagrama de influência<br>do Sistema de Obesidade</h1>
+         <h1 v-if="isDesktop">Diagrama de influência<br>do Sistema de Obesidade</h1>
         <font-awesome-icon id="information" icon="info-circle" />
     </div>
     <ObesityDiagram @update="handleUpdate" class="map" />
@@ -34,7 +34,8 @@ export default {
     isDesktop() {
       if (screen.width >= 1366) return true;
       else  this.$buefy.dialog.alert({
-          message: 'Essa aplicação é melhor visualizada em modo retrato no celular. Para exibição detalhada, acesse pelo computador',
+          title: '',
+          message: '<b> Diagrama de influência do Sistema de Obesidade </b> <br><br> Essa aplicação é melhor visualizada em modo retrato no celular. Para exibição detalhada, acesse pelo computador',
           confirmText: 'OK'
           });
           return false;
@@ -43,13 +44,6 @@ export default {
   methods:{
     handleUpdate(description){
       this.descriptionReference = description
-    },
-    alertMobile() {
-      this.$buefy.dialog.alert({
-          title: 'Title Alert',
-          message: 'I have a title, a custom button and <b>HTML</b>!',
-          confirmText: 'Cool!'
-      })
     }
   }
 }
