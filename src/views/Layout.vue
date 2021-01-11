@@ -26,8 +26,7 @@ export default {
   },
   data(){
     return{
-      descriptionReference: '',
-      screenSize: screen.width
+      descriptionReference: ''
     }
   },
   computed: {
@@ -35,7 +34,7 @@ export default {
       if (screen.width >= 1366) return true;
       else  this.$buefy.dialog.alert({
           title: '',
-          message: '<b> Diagrama de influência do Sistema de Obesidade </b> <br><br> Essa aplicação é melhor visualizada em modo retrato no celular. Para exibição detalhada, acesse pelo computador',
+          message: '<b> Diagrama de influência do Sistema de Obesidade </b> <br><br> Essa aplicação é melhor visualizada em modo retrato no celular. Para exibição detalhada, acesse através do computador.',
           confirmText: 'OK'
           });
           return false;
