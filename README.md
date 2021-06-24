@@ -1,24 +1,21 @@
-# mapa-obesidade
+# Mapa Multissistêmico de Evidências sobre Obesidade
+
+#### This project consists in a canvas map to show all the multisystemic evidences about obesity. The current version is in Portuguese(BR).
+
+## Requirements
+ - NodeJS (>= 12);
 
 ## Project setup
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Starts the Project
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+yarn start
 ```
 
 ### Lints and fixes files
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
