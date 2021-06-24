@@ -2,8 +2,15 @@
 
 #### This project consists in a canvas map to show all the multisystemic evidences about obesity. The current version is in Portuguese(BR).
 
+## Built with:
+- <b>VueJS</b>;
+- Fontawesome;
+- Buefy;
+- Vue Panzoom;
+
 ## Requirements
  - NodeJS (>= 12);
+ - Yarn;
 
 ## Project setup
 ```
